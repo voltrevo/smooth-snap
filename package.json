@@ -4,8 +4,10 @@
   "description": "A smooth snapping algorithm.",
   "main": "index.js",
   "dependencies": {
-    "info-icon": "^0.0.2",
+    "cssify": "^0.7.0",
+    "html2jsify": "0.0.2",
     "info-overlay": "^0.0.2",
+    "markdownify": "^0.1.0",
     "range": "0.0.3"
   },
   "devDependencies": {},
@@ -16,6 +18,13 @@
     "smooth",
     "snap"
   ],
+  "browserify": {
+    "transform": [
+      "cssify",
+      "html2jsify",
+      "markdownify"
+    ]
+  },
   "author": "Andrew Morris",
   "license": "MIT"
 }

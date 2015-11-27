@@ -18,5 +18,7 @@ https://andrewmorris.io/smooth-snap/
 
 npm install -g nakedjs
 git clone git@github.com:voltrevo/smooth-snap
+cd smooth-snap
+npm install
 nakedjs index.js
 ```
