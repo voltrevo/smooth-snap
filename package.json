@@ -1,0 +1,21 @@
+{
+  "name": "smooth-snap",
+  "version": "0.0.1",
+  "description": "A smooth snapping algorithm.",
+  "main": "index.js",
+  "dependencies": {
+    "info-icon": "^0.0.2",
+    "info-overlay": "^0.0.2",
+    "range": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "smooth",
+    "snap"
+  ],
+  "author": "Andrew Morris",
+  "license": "MIT"
+}
