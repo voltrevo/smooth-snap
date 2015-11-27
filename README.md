@@ -7,6 +7,10 @@ One application I have in mind is a spotlight that moves a series of links in th
 
 The motion was originally based on `x + sin(x)` behaviour, but I was able to make the 'stopping zone' larger by using integrals of `sin(x)^2n`. I settled on `n=3` for this demo and used wolfram alpha like [this](http://www.wolframalpha.com/input/?i=integrate+sin%28x%29%5E6).
 
+## Online demo
+
+https://andrewmorris.io/smooth-snap/
+
 ## Set-up
 
 ``` sh
