@@ -1,6 +1,6 @@
 .info-overlay {
   font-family: sans-serif;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 20px;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
 }
