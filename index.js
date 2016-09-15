@@ -13,7 +13,7 @@ var placeDot = function(dot, opt) {
 
 var Dot = function(opt) {
   var dot = document.createElement('div');
-  dot.style.backgroundColor = opt.color || 'blue';
+  dot.style.backgroundColor = opt.color || '#04f';
   dot.style.left = '0px';
   dot.style.top = '0px';
   dot.style.position = 'absolute';
